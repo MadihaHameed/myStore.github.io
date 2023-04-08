@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+/* Desktop view */
+.section {
+	width: 33.33%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 300px;
+	position: relative;
+}
+
+.section-title {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+/* Tablet view */
+@media only screen and (max-width: 991px) {
+	.section {
+		width: 50%;
+	}
+}
+
+/* Mobile view */
+@media only screen and (max-width: 767px) {
+	.section {
+		width: 100%;
+	}
+}
+h1 {
+  font-size: 1.75em;
+  position:center;
+}
+
+.section-title {
+  font-size: 1.25em;
+}
